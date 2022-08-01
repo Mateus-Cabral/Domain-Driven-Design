@@ -1,17 +1,17 @@
-package aulaRepetiçao;
+package aulaRepeticao;
 
 public class While {
 
 	public static void main(String[] args) {
-		//Declaração de variáveis
-		String nome = "José";
+		//Declaraï¿½ï¿½o de variï¿½veis
+		String nome = "Josï¿½";
 		double salario = 1500;
 		int contador = 0;
 
-		System.out.println("Funcionário: " + nome);
-		System.out.println("Salário :" + salario);
+		System.out.println("Funcionï¿½rio: " + nome);
+		System.out.println("Salï¿½rio :" + salario);
 		
-		// Aumenta o salário em 10% após cada iteração
+		// Aumenta o salï¿½rio em 10% apï¿½s cada iteraï¿½ï¿½o
 		// Sintaxe de while:
 		// while(<teste>){
 		// 	Bloco
@@ -22,15 +22,15 @@ public class While {
 			contador++;
 		}
 		
-		// prinf - print com formatação
+		// prinf - print com formataï¿½ï¿½o
 		// %s - String
 		// %c - caractere
 		// %d - int
-		// %f - %.2f (controla número de casas) - float
+		// %f - %.2f (controla nï¿½mero de casas) - float
 		// Sintaxe:
 		// printf("<%s, %c, %d, %.1f>", <string>,<char>,<int>,<float>)
 		
-		System.out.printf("%s, seu salário final é de: R$ %.2f \n", nome, salario);
+		System.out.printf("%s, seu salï¿½rio final ï¿½ de: R$ %.2f \n", nome, salario);
 		System.out.printf("Vezes que o loop ocorreu: %d meses \n", contador);
 		
 	}

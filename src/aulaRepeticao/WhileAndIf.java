@@ -1,4 +1,4 @@
-package aulaRepetiçao;
+package aulaRepeticao;
 
 public class WhileAndIf {
 
