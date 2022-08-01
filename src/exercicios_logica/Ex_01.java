@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex_01 {
 	
-	// Exercício para ler o 1 número inteiro e mostrar seu antecessor e seu sucessor
+	// ExercÃ­cio para ler 1 nÃºmero inteiro e mostrar seu antecessor e sucessor
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -15,9 +15,9 @@ public class Ex_01 {
 		
 		input.close();
 		
-		System.out.println("O número é " + num);
-		System.out.println("Seu antecessor é: " + (num - 1));
-		System.out.println("O seu sucessor é " + (num + 1));
+		System.out.println("O nÃºmero Ã© " + num);
+		System.out.println("Seu antecessor Ã©: " + (num - 1));
+		System.out.println("O seu sucessor Ã© " + (num + 1));
 	}
 
 }
