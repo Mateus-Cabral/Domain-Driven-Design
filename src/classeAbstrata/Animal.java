@@ -3,6 +3,11 @@ package classeAbstrata;
 public abstract class Animal {
 	private String nome;
 	
+	public void trocaNome() {
+		this.setNome("Maracutaia");
+		System.out.println(this.getNome());
+	}
+	
 	public abstract void fazerBarulho();
 
 	public String getNome() {

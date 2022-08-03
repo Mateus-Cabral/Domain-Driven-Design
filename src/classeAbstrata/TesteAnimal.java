@@ -12,7 +12,7 @@ public class TesteAnimal {
 		quackBoy.fazerBarulho();
 		quackBoy.setNome("Quack Boy, The 3rd");
 		System.out.println(quackBoy.getNome());
-		
+		quackBoy.trocaNome();
 	}
 
 }
